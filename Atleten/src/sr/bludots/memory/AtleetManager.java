@@ -70,7 +70,7 @@ public class AtleetManager {
 		System.err.println("Jaar van D1=" + startDatum.getYear());
 		
 //OPDRACHT 2. ZOEK NAAR ALLE INDIVIDUELE SPORTERS		
-		ArrayList<String> unique_namen = new ArrayList<>();
+		
 		for (int i = 0; i < atletenList.size(); i++) {
 			//get voornaam+achhternaam;
 			
