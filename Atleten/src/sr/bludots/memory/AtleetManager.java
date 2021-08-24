@@ -72,16 +72,14 @@ public class AtleetManager {
 //OPDRACHT 2. ZOEK NAAR ALLE INDIVIDUELE SPORTERS		
 		ArrayList<String> unique_namen = new ArrayList<>();
 		for (int i = 0; i < atletenList.size(); i++) {
-			//get voornaam+achhternaam; if het geeft me 22 sporters terug
-			if(unique_namen.indexOf(atletenList.get(i).getVoornaam()+atletenList.get(i).getAchternaam()) < 0) {
-				unique_namen.add(atletenList.get(i).getVoornaam()+atletenList.get(i).getAchternaam());
+			//get voornaam+achhternaam;
+			
 				
-				System.out.println("Alle individuele sporters=" + atletenList.get(i).getVoornaam() +" "+ atletenList.get(i).getAchternaam());
-			}		
+				System.out.println("Alle individuele sporters="  );
+				
 		}
 		
-//OPDRACHT 3) DRUK AF HOEVEEL TEAMSPORTERS ER IN DE LIJST ZITTEN
-		System.out.println("Aantal unieke sporters = " + unique_namen.size());
+
 	}
 	
 	public static void fillAtletenArray() {
